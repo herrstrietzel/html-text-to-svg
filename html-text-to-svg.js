@@ -75,8 +75,7 @@ function html2SvgText(htmlEl, textNodes = null) {
 
   // render svg
   let svgEl = renderSVGText(textNodeObj);
-  console.log(textNodeObj);
-
+  //console.log(textNodeObj);
   return svgEl;
 }
 
